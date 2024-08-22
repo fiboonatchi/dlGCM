@@ -1,0 +1,7 @@
+#!/bin/bash
+FILES=*.sh
+for f in $FILES
+do
+   chmod +rx $f
+   ./$f  -H
+done
